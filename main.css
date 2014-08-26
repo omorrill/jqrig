@@ -1,0 +1,104 @@
+/* ACTUAL PROJECT FILE */
+
+body {
+	/* background-color: black; */
+}
+article {
+	width: 100%;
+}
+h1, h2, h3, h4, h5, p {
+	padding: 0;
+	margin: 0;
+}
+img {
+	height: 100%;
+	width: 100%;
+}
+button {
+	background-color: #cccccc;
+	border-radius: 5px;
+	height: 35px;
+	width: 120px;
+	display: inline;
+}
+#grid-wrap {
+	width: 100%;
+	float: left;
+}
+.orng, .blu, .gre, .gol, .imgs {
+	float: left;
+	box-shadow: 2px 3px 3px #A2A4A3;
+	border-radius: 2%;
+	height: 150px;
+	width: 20%;
+	margin: 5px;
+	padding: 3px;
+	overflow: hidden;
+}
+.group1 {}
+.group2 {}
+.group3 {}
+.group4 {}
+.group5 {}
+.shuf {
+	display: none;
+}
+.orng {
+	background-color: #d86642;
+}
+.blu {
+	background-color: #00879b;
+}
+.gre {
+	background-color: #26590a;
+}
+.gol {
+	background-color: #d9d9b5;
+	color: #CFB87C;
+}
+.imgs {
+	border-radius: 25%;
+}
+.imgs img {
+	height: 105%;
+	width: 105%;
+}
+.orng:hover {
+	opacity: 0.9;
+} 
+.blu:hover {
+	opacity: 0.9;
+} 
+.gre:hover {
+	opacity: 0.9;
+} 
+.gol:hover {
+	opacity: 0.9;
+}
+.imgs:hover {
+	opacity: 0.9;
+}
+.front {
+	padding: 0;
+	margin: 0;
+}
+
+/* For Smartphones */
+@media only screen and (max-width: 480px) {
+button {
+	background-color: #cccccc;
+	min-height: 25px;
+	width: 100%;
+	display: block;
+}
+#grid-wrap {
+	width: 100%;
+	}
+}
+/* FOR TABLETS */
+@media only screen and (max-width: 768px) {
+#grid-wrap div {
+	min-width: 22%;
+	min-height: 25%;
+	}
+}
